@@ -14,7 +14,7 @@ Utilización de **Unity 3D**, la cual es una herramienta que nos ayuda a desarro
 
 
 ## Pasos realizados:
-**NOTA:**  _Al final poseen la URL's a las páginas oficiales de los distintos archivos de descargas nombrados a continuación_    
+> **NOTA:**  _Al final poseen la URL's a las páginas oficiales de los distintos archivos de descargas nombrados a continuación_    
 
 **1er paso:** Descargamos **_UNITY_** en su versión última o final.   
 **2do paso:** Descargamos el **_SDK de Vuforia para Unity_**. _Al final poseen la URL a la página oficial de descargas_   
@@ -24,35 +24,47 @@ Utilización de **Unity 3D**, la cual es una herramienta que nos ayuda a desarro
 
 ![Project](https://github.com/gcpmendez/VuforiaArt/blob/master/vuforia5.JPG?raw=true)
 
+**4to paso:** Pasamos a crear nuestros objetos, nos vamos a la carpeta de **_Assets>Vuforia>Prefabs_** y arrastramos **ARCamera** hasta la escena, hacemos lo mismo con el **ImageTarget**. Por último añadimos el objeto que queremos que aparezca en 3D, yo he añadido un f16 descargado desde la store de Unity. Quedaría así:
 
-Y de una pantalla final donde se muestra el jugador ganador.
-
-![Pantalla final](https://github.com/gcpmendez/Game_Pong_PAI/blob/master/PongGame2.JPG?raw=true "imagen3")
-
-> **Nota:**
-> El objetivo del juego es obtener 7 puntos para lograr la victoria.
+![Project](https://github.com/gcpmendez/VuforiaArt/blob/master/vuforia6.JPG?raw=true)
 
 
 
-#### <i class="icon-refresh"></i> Ayúdame a mejorar el juego
+> **NOTA:** Deberemos escalar y posicionar el objeto 3D descargado. Le he añadido la luz direccional para dar más realismo a la escena.
 
+**5to paso:** Añadida clave de licencia de vuforia al Unity, para ello agregaremos una.
+![vuforia developer portal](https://github.com/gcpmendez/VuforiaArt/blob/master/vuforia9.JPG?raw=true)  
 
-Cada **bug** que encuentre házmelo saber a gcpmendez@gmail.com
+Luego la clave generada la introducimos en Unity.
+![vuforia developer portal](https://github.com/gcpmendez/VuforiaArt/blob/master/vuforia10.JPG?raw=true)
 
+**6to paso:** Añadida la cámara, la base y el objeto ahora nos toca crear la **base de datos de la imagen** que queremos utilizar como patrón para que aparezca el F16.  
 
+Para ello nos vamos a ImageTarget Database en vuforia; nos registramos, creamos la base de datos y subimos la imagen elegida como patrón.
 
+![vuforia developer portal](https://github.com/gcpmendez/VuforiaArt/blob/master/vuforia7.JPG?raw=true)
 
+Creada la base de datos en Target Manager, nos la descargamos y la importamos (doble click en el archivo descargado) al proyecto de Unity 3D.
 
+Importada la BD de ImagenTarget seleccionamos el objeto Image Target y añadimos como patrón la imagen deL suelo.
 
+![vuforia developer portal](https://github.com/gcpmendez/VuforiaArt/blob/master/vuforia8.JPG?raw=true)
+> **Nota:** Cambiaremos el ancho según las propiedades de la imagen.
 
+**7mo paso:** Configurada ya la escena, pasamos a crear la aplicación para instalarla en nuestro dispositivo **Android**.
+* En **File > Build Settings :**
+* Nos aseguramos que este seleccionada nuestra escena, sino Clicamos sobre 'add current' y seleccionamos.
+*  Pinchamos en el simbolo de Android y nos aseguramos que Default Orientation no esta en Auto Rotation, establecemos 'landscape Left'  
+* En **Players Settings :**
+* Minimum API Level esta a Android 2.3.1 'Jelly Bean' (API level 9)   
+* Bundle Identifier esta a un nombre valido (e.g. com.mycompany.firstARapp). Nombre de la compañia y nombre del producto establecidos al principio.
 
-### <i class="icon-cog"></i>Ejecutar el juego
+![vuforia developer portal](https://github.com/gcpmendez/VuforiaArt/blob/master/vuforia11.JPG?raw=true)  
 
-Para ejecutar el juego lo descargaremos <i class="icon-download"></i>, luego desde Eclipse lo importaremos desde el directorio donde lo hallamos extraido <i class="icon-folder"></i> y ejecutaremos el Main.js o desde linea de comandos y dentro del directorio /src del proyecto ejecutaremos los siguientes comandos:
-```
-javac *.java
-java main
-```
+**Último paso:** Construimos la aplicación con build y nos generará el .apk que podremos instalar en el dispositivo Android. Lo instalamos en nuestro dispositivo Android y comprobamos que funcione todo. �
+## Ayúdame a mejorar este tutorial
+
+Cada **bugs** que encuentres házmelo saber a gcpmendez@gmail.com
 
 ### Enlaces Externos
 
