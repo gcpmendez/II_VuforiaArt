@@ -61,10 +61,10 @@ Importada la BD de ImagenTarget seleccionamos el objeto Image Target y añadimos
 
 ![vuforia developer portal](https://github.com/gcpmendez/VuforiaArt/blob/master/vuforia11.JPG?raw=true)  
 
-**Último paso:** Construimos la aplicación con build y nos generará el .apk que podremos instalar en el dispositivo Android. Lo instalamos en nuestro dispositivo Android y comprobamos que funcione todo. :smile:
+**Último paso:** Construimos la aplicación con build y nos generará el .apk que podremos instalar en el dispositivo Android. Lo instalamos en nuestro dispositivo Android y comprobamos que funcione todo. :grin::grin:
 ## Ayúdame a mejorar este tutorial
 
-Cada **bugs** que encuentres házmelo saber a gcpmendez@gmail.com
+Cada **bugs** que encuentres házmelo saber a [gcpmendez@gmail.com](mailto:gcpmendez@gmail.com)
 
 ### Enlaces Externos
 
