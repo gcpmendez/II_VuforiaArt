@@ -61,6 +61,16 @@ Importada la BD de ImagenTarget seleccionamos el objeto Image Target y añadimos
 ![vuforia developer portal](https://github.com/gcpmendez/VuforiaArt/blob/master/vuforia11.JPG?raw=true)  
 
 **Último paso:** Construimos la aplicación con build y nos generará el .apk que podremos instalar en el dispositivo Android. Lo instalamos en nuestro dispositivo Android y comprobamos que funcione todo. :grin::grin:
+
+> **Nota:** He visto que la aplicación no funciona con ciertos tipos de dispositivos al instalarla, sale el mensaje "Aplicación no instalada". La solución es establecer las "player Settings" como sigue:
+* Default Orientation: landscape Left
+* Device Filter: ARMv7
+* Install Location: Automatic
+* Api Comptatibility Level: .NET 2.0 Subnet
+* Versión de android: establecer la de nuestro dispositivo.
+
+> Con esto ya funciona. He subido el APK RealidadAumentadaCoche.apk con la nueva configuración.
+
 ## Ayúdame a mejorar este tutorial
 
 Cada **bugs** que encuentres házmelo saber a [gcpmendez@gmail.com](mailto:gcpmendez@gmail.com)
