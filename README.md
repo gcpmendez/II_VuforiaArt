@@ -2,7 +2,7 @@
 
 Este práctica ha sido desarrollado en la asignatura de **Interfaces Inteligentes** del itinerario de computación del **_Grado en Ingeniería Informática_** de la **ULL**.
 
-Práctica realizada con **Víctor Hernández Pérez** (alu0100697032).
+Práctica realizada con **Víctor Hernández Pérez** (alu0100697032) y **José Manuel Hernández Hernández** (alu0100697032).
 ## Descripción de la práctica
 
 Crear proyecto de Vuforia (**aplicación**) para representar una **_escena 3D sobre una imagen objetivo_**.
